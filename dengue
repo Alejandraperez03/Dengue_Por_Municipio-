@@ -1,0 +1,14 @@
+salud-publica-dengue/
+├── data/
+│   ├── raw/
+│   │   ├── dengue_notificaciones.csv    # Datos de la fuente 1
+│   │   └── dengue_grave_mortalidad.csv  # Datos de la fuente 2
+│   └── processed/                        # Datos consolidados por municipio/fecha
+├── notebooks/
+│   ├── 01_eda_tendencias_estacionalidad.ipynb
+│   ├── 02_segmentacion_municipios.ipynb
+│   └── 03_modelo_prediccion_brotes.ipynb
+├── dashboard/                            # Carpeta para los archivos de tu mapa interactivo
+│   └── app.py
+├── .gitignore                            # Para no subir datos pesados a GitHub
+└── README.md                             # El documento principal (código abajo)
