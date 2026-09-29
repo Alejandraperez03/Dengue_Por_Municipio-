@@ -9,23 +9,6 @@
 
 En esta entrega se documenta la **adquisición y el cruce**. El análisis descriptivo usa registros de dengue (evento 210) de 2021–2025. El cruce con la segunda tabla puede verificarse solo en 2021–2022, porque esa es la cobertura disponible de la publicación nacional agregada consultada. No se estiman tasas, riesgo individual ni causalidad.
 
-## Archivos para importar al repositorio
-
-Copie **el contenido de esta carpeta** a la raíz de `Dengue_Por_Municipio-`, conservando estas rutas:
-
-```text
-README.md
-SUSTENTACION.md
-requirements.txt
-preparar_datos.py
-crear_notebook.py
-data/processed/ins_dengue_municipio_semana_2021_2025.csv
-data/processed/ins_dengue_municipio_semana_2021_2025.xlsx
-data/processed/portal_dengue_municipio_semana_2021_2022.csv
-data/processed/control_calidad.json
-notebooks/01_adquisicion_dengue.ipynb
-```
-
 El notebook debe quedar específicamente en **`/notebooks`**. Los cinco Excel originales pesan alrededor de 400 MB en conjunto, por lo que se conservan fuera de GitHub y se publica la tabla depurada y agregada. No se publican identificadores de notificaciones ni variables individuales.
 
 ## Fuentes verificadas
